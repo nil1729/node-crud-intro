@@ -1,0 +1,15 @@
+i.icon {
+    font-size: 2em;
+}
+
+.container.main {
+    margin-top: 5em;
+}
+
+#delete {
+    display: inline;
+}
+
+.right.chevron.icon {
+    font-size: 0.9em;
+}
