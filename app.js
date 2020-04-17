@@ -16,7 +16,7 @@ app.use(expressSanitizer());
 app.use(methodOverride("_method"));
 
 // MongoDB Connect
-mongoose.connect("mongodb://localhost/restful_blog_app", {
+mongoose.connect("mongodb://localhost/restful_blog_app_2", {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
