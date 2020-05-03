@@ -1,7 +1,7 @@
-## RESTful-Blog-App (No Authentiaction !!)##
+## RESTful-Blog-App ##
 #### This site is Live [here](https://restful-blog-nodejs.herokuapp.com/)
 ---
-
+#### There Have No Authentication . A Simple Blog App.
 #### For Backend Side I used `NodeJS`, `ExpressJS`, `MongoDB`, `Body-Parser`, `Mongoose` and for styling UI I used `Semantic UI` .
 ---
 
