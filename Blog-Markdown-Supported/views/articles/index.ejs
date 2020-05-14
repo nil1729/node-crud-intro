@@ -1,0 +1,26 @@
+<%- include ('./../partials/header.ejs') %>
+    <div class="jumbotron">
+        <h1 class="display-4">Programming Blog</h1>
+        <hr class="my-2">
+        <p class="lead">Want to Contribute</p>
+        <a href="/articles/new" class="btn btn-primary">Create A Post</a>
+    </div>
+    <div class="container">
+        <% articles.forEach(article => { %>
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <%= article.title  %>
+                    </h4>
+                    <div class="card-subtitle text-muted mb-2">
+                        <%= article.createdAt.toLocaleDateString() %>
+                    </div>
+                    <div class="card-text mb-2">
+                        <%= article.description  %>
+                    </div>
+                    <a href="/articles/<%=article.slug %>" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+            <% }) %>
+    </div>
+    <%- include ('./../partials/footer.ejs')  %>

@@ -1,0 +1,20 @@
+<%- include ('./../partials/header.ejs') %>
+    <div class="container">
+        <h1 class="mt-2 mb-4">
+            <%= article.title  %>
+        </h1>
+        <div class="text-muted mb-2">
+            <%= article.createdAt.toLocaleDateString() %>
+        </div>
+        <div class="container mb-3">
+            <a href="/" class="btn btn-secondary">All Articles</a>
+            <!-- <a href="/articles/edit/<%= article._id %>" class="btn btn-warning">Edit</a>
+            <form class="d-inline" action="/articles/<%= article._id %>?_method=DELETE" method="POST">
+                <button type="submit" class="btn btn-danger">Delete</button>
+            </form> -->
+        </div>
+        <div>
+            <%- article.README %>
+        </div>
+    </div>
+    <%- include ('./../partials/footer.ejs')  %>
