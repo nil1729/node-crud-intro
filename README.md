@@ -1,11 +1,16 @@
-## RESTful-Blog-App ##
-#### This site is Live [here](https://restful-blog-nodejs.herokuapp.com/)
+## BLOG - Basic ##
+#### This site is on Under maintenance.
 ---
+## BLOG - Markdown Supported ##
+#### This site is Live [here]().
+---
+---
+### About BLOG Web App 
 #### There Have No Authentication . A Simple Blog App.
-#### For Backend Side I used `NodeJS`, `ExpressJS`, `MongoDB`, `Body-Parser`, `Mongoose` and for styling UI I used `Semantic UI` .
+#### For Backend Side I used `NodeJS`, `ExpressJS`, `MongoDB`, `Body-Parser`, `Mongoose`.
 ---
 
-### Local Environnt Setup For This App:
+### Local Environnt Setup For This Apps:
 
 * *`Clone This Repository`* and You must have *`MongoDB`* and *`NodeJS`* installed in your Computer and well Setup.
 
