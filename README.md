@@ -1,22 +1,31 @@
-## BLOG - Basic ##
-#### This site is on Under maintenance.
----
-## BLOG - Markdown Supported ##
-#### This site is Live [here](http://programming-blog-nil.herokuapp.com/).
----
-### About BLOG Web App 
----
-#### There Have No Authentication . A Simple Blog App.
-#### For Backend Side I used `NodeJS`, `ExpressJS`, `MongoDB`, `Body-Parser`, `Mongoose`.
+## NodeJS & MongoDB - CRUD Operations
 
+This is a simple Blog which is served over NodeJS and MongoDB. This contains CRUD Operations.
 
 ---
-### Local Environnt Setup For This Apps:
+
+1. There Have No Authentication . A Simple Blog App.
+2. For Backend Side I used `NodeJS`, `ExpressJS`, `MongoDB`, `Body-Parser`, `Mongoose`.
+3. Bootsrap and Semantic-UI is used as CSS Framework
+4. Second directory contains a special Package called `marked` which Supports `Markdown` file.
+5. `Express-Sanitizer` is used to prevent XSS.
+
 ---
-* *`Clone This Repository`* and You must have *`MongoDB`* and *`NodeJS`* installed in your Computer and well Setup.
 
-* Then in the Same Directory Open Command Prompt and run this Code *`npm install`* and then *`nodemon`* or *`node app.js`*
+### Setup on Local Environment
+
+- Clone this Repository
+- Navigate to any Specific Directory
+- Install all NodeJS dependencies
+- Setup Environment variables. [Set up MongoDB]
+- Run the Script
+- Code Sample
+  ```
+  >>  git clone https://github.com/nil1729/yelpcamp--nodejs.git
+  >>  npm install
+  >>  npm start
+  ```
 
 ---
-##### Thank You :slightly_smiling_face: #####
 
+**Thank You :slightly_smiling_face:**
